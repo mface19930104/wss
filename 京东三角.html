@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.box {
+			position: relative;
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			margin: 100px auto;
+		}
+		.smallbox {
+			width: 0;
+			height: 0;
+			border-width: 20px;
+			border-style: solid;
+			border-color: transparent transparent red transparent ;
+			position: absolute;
+			left: 50%;
+			margin-left: -20px;
+			margin-top: -40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="smallbox"></div>
+	</div>
+</body>
+</html>
